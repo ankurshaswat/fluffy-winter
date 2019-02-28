@@ -11,7 +11,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const API = 'https://hn.algolia.com/api/v1/search?query=redux';
+    const API = 'https://devclub.iitd.ac.in/db.json';
 
     fetch(API)
       .then(response => response.json())
