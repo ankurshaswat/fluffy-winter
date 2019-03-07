@@ -11,7 +11,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const API = 'https://devclub.iitd.ac.in/db.json';
+    const API = 'https://devclub.in/db.json';
 
     fetch(API)
       .then(response => response.json())
